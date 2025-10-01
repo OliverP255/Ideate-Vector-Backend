@@ -1,0 +1,55 @@
+{
+  "name": "knowledge-map-frontend",
+  "version": "1.0.0",
+  "description": "Interactive Knowledge Map Visualization",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@deck.gl/aggregation-layers": "^9.1.14",
+    "@deck.gl/core": "8.9.35",
+    "@deck.gl/geo-layers": "^8.9.35",
+    "@deck.gl/layers": "^8.9.35",
+    "@deck.gl/react": "^8.9.35",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tanstack/react-query": "5.8.4",
+    "autoprefixer": "10.4.16",
+    "axios": "1.6.2",
+    "clsx": "2.0.0",
+    "deck.gl": "^9.1.14",
+    "lucide-react": "0.294.0",
+    "mapbox-gl": "^2.15.0",
+    "next": "14.0.4",
+    "postcss": "8.4.32",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-map-gl": "^8.0.4",
+    "tailwindcss": "^3.3.6"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.1.5",
+    "@testing-library/react": "14.1.2",
+    "@types/mapbox-gl": "2.7.18",
+    "@types/node": "20.10.0",
+    "@types/react": "18.2.42",
+    "@types/react-dom": "18.2.17",
+    "eslint": "8.54.0",
+    "eslint-config-next": "14.0.4",
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "29.7.0",
+    "prettier": "3.1.0",
+    "typescript": "5.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

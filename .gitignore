@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database files (too large for git)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+*.sqlite
+
+# ChromaDB data (too large for git)
+**/chroma_db/
+**/chroma_db/**
+data/chroma_db/
+scripts/data/chroma_db/
+scripts/data/knowledge_map/chroma_db/
+
+# Large data files
+scripts/data/knowledge_map/metadata.db*
+scripts/data/embeddings/
+scripts/data/logs/
+
+# Logs
+*.log
+logs/
+scripts/processor.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Next.js build cache
+frontend/.next/
+frontend/out/
+
+# Model files (too large for git)
+backend/data/models/
+*.pth
+*.pkl
+*.pb
+*.keras
+
+# Database files
+backend/data/
+scripts/data/
+
